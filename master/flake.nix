@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-gles-master.flake = false;
+  inputs.src-gles-master.ref   = "refs/heads/master";
   inputs.src-gles-master.owner = "nimious";
-  inputs.src-gles-master.ref   = "master";
   inputs.src-gles-master.repo  = "gles.git";
   inputs.src-gles-master.type  = "github";
   
